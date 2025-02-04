@@ -1,0 +1,56 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+#cartas {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-bottom: 15px;
+}
+
+.cartav {
+
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+.cartav img {
+    width: 100%;
+    height: 250px;
+}
+
+.iconos {
+    display: flex;
+
+}
+ i {
+    margin: 5px;
+}
+
+#cartas2 {
+    display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    margin-bottom: 15px;
+}
+
+.cartaA {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.cartaA img{
+    width: 100%;
+    height: 250px;
+}
+
